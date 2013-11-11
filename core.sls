@@ -3,3 +3,6 @@ httpd:
     - installed
   service:
     - running
+nginx:
+  pkg:
+    - installed
